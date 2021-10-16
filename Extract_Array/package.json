@@ -1,0 +1,14 @@
+{
+  "name": "task-4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "extractFieldArray.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.2.5"
+  }
+}
