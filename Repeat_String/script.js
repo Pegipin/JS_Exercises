@@ -1,8 +1,8 @@
  function repeatStr(string, times) {
-   if (times > 0 && (!isNaN(times))) {
-     return string.repeat(times);
-   } else
-    
-     return "";
+   return (times > 0 && (!isNaN(times))) ? string + repeatStr(string, times - 1) : "";
  }
+
+//Arrow Function
+//const repeatStr = (string, times) => (times > 0 && (!isNaN(times))) ? string + repeatStr(string, times - 1) : "";
+
 console.log (repeatStr("pinkey", 3));
